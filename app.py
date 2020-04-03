@@ -12,7 +12,7 @@ soup = BeautifulSoup(response.content, 'html.parser')
 table = soup.findAll('table', attrs={'class':'contenttable'})[1]
 
 date_text = soup.find(text=re.compile('Fichier du DCIMI, en date du'))
-french_date = re.search(r'(?<=en date du ).*?(?= )', date_text).group(0)
+french_date = re.search(r'(?<=en date du ).*?(?= 1)', date_text).group(0)
 date = dateparser.parse(french_date + ' 2020').date()
 
 output_rows = [['Arrondissements', 'Cas Confirmés']]
