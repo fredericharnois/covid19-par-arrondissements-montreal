@@ -9,15 +9,15 @@ import dateparser
 url = 'https://santemontreal.qc.ca/population/coronavirus-covid-19/'
 response = requests.get(url, timeout=10)
 soup = BeautifulSoup(response.content, 'html.parser')
-table = soup.findAll('table', attrs={'class':'contenttable'})[2]
+table = soup.findAll('table', attrs={'class':'contenttable'})[1]
 
-date_text = soup.find(text=re.compile('Dernière mise à jour des données'))
-french_date = re.search(r'(?<=le ).*?(?=,)', date_text).group(0)
-date = dateparser.parse(french_date).date()
+date_text = soup.find(text=re.compile('Fichier du DCIMI, en date du'))
+french_date = re.search(r'(?<=en date du ).*?(?= )', date_text).group(0)
+date = dateparser.parse(french_date + ' 2020').date()
 
 output_rows = [['Arrondissements', 'Cas Confirmés']]
 for table_row in table.findAll('tr'):
-    columns = table_row.findAll('td')
+    columns = table_row.findAll('td')[0:2]
     output_row = []
     for column in columns:
         column_text = column.text
