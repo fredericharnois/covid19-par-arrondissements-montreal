@@ -25,6 +25,8 @@ for table_row in table.findAll('tr'):
         column_text = column_text.replace('*', '')
         if re.search('[a-zA-Z]', column_text) is None:
             column_text = column_text.replace(' ', '')
+        elif column_text == 'Territoire à confirmer2':
+            column_text = column_text.replace('2', '')
         output_row.append(column_text)
     output_rows.append(output_row)
 output_rows = filter(None, output_rows)
