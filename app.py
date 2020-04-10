@@ -3,17 +3,18 @@ import csv
 import requests
 import unicodedata
 import re
-import dateparser
+import datetime
+
 
 
 url = 'https://santemontreal.qc.ca/population/coronavirus-covid-19/'
 response = requests.get(url, timeout=10)
 soup = BeautifulSoup(response.content, 'html.parser')
-table = soup.findAll('table', attrs={'class':'contenttable'})[1]
+table = soup.findAll('table', attrs={'class':'contenttable'})[3]
 
-date_text = soup.find(text=re.compile('Fichier du DCIMI, en date du'))
-french_date = re.search(r'(?<=en date du ).*?(?= 1)', date_text).group(0)
-date = dateparser.parse(french_date + ' 2020').date()
+today = datetime.datetime.now()
+yesterday = today - datetime.timedelta(days=1)
+date = yesterday.strftime('%Y-%m-%d')
 
 output_rows = [['Arrondissements', 'Cas Confirmés']]
 for table_row in table.findAll('tr'):
