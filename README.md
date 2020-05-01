@@ -5,6 +5,7 @@ Ce dépôt de données a pour but de stocker l'information que fourni Santé Mon
 * Santé Montréal: https://santemontreal.qc.ca/population/coronavirus-covid-19/
 
 #### Notes:
+* **2020-05-01:** Aucune mise à jour des données par arrondissements et villes liées n'a été faite pour le 29 avril. *Il n'y a donc pas de fichier 2020-04-29.*
 * **2020-04-30:** Aucune mise à jour des données par arrondissements et villes liées n'a été faite pour le 28 avril. *Il n'y a donc pas de fichier 2020-04-28.*
 * **2020-04-21:** Aucune mise à jour des données par arrondissements et villes liées n'a été faite pour le 19 avril. *Il n'y a donc pas de fichier 2020-04-19.*
 * **2020-04-10:** À 16:00, il était indiqué que la source des données était le "fichier du DCIMI, en date du 10 avril 17 h". *Je présume que c'est une erreur et que la date réelle de la mise à jour est le 9 avril.*
