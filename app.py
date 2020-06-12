@@ -7,10 +7,10 @@ import datetime
 
 
 
-url = 'https://santemontreal.qc.ca/population/coronavirus-covid-19/'
+url = 'https://santemontreal.qc.ca/population/coronavirus-covid-19/situation-du-coronavirus-covid-19-a-montreal/'
 response = requests.get(url, timeout=10)
 soup = BeautifulSoup(response.content, 'html.parser')
-table = soup.findAll('table', attrs={'class':'contenttable'})[3]
+table = soup.findAll('table', attrs={'class':'contenttable'})[2]
 
 today = datetime.datetime.now()
 yesterday = today - datetime.timedelta(days=1)
