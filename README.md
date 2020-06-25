@@ -5,6 +5,7 @@ Ce dépôt de données a pour but de stocker l'information que fourni Santé Mon
 * Santé Montréal: https://santemontreal.qc.ca/population/coronavirus-covid-19/
 
 #### Notes:
+* **2020-06-24:** Aucune mise à jour des données par arrondissements et villes liées n'a été faite pour le 23 juin. *Il n'y a donc pas de fichier 2020-06-23.*
 * **2020-06-21:** Aucune mise à jour des données par arrondissements et villes liées n'a été faite pour le 20 juin. *Il n'y a donc pas de fichier 2020-06-20.*
 * **2020-06-20:** Aucune mise à jour des données par arrondissements et villes liées n'a été faite pour le 19 juin. *Il n'y a donc pas de fichier 2020-06-19.*
 * **2020-05-01:** Aucune mise à jour des données par arrondissements et villes liées n'a été faite pour le 29 avril. *Il n'y a donc pas de fichier 2020-04-29.*
