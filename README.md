@@ -5,6 +5,8 @@ Ce dépôt de données a pour but de stocker l'information que fourni Santé Mon
 * Santé Montréal: https://santemontreal.qc.ca/population/coronavirus-covid-19/
 
 #### Notes:
+
+* **2020-07-03:** Aucune mise à jour des données par arrondissements et villes liées n'a été faite pour le 2 juillet. *Il n'y a donc pas de fichier 2020-07-02.*
 * **2020-06-26:** Les bilans quotiens seront finallement [rétablis à partir du 29 juin](https://twitter.com/cdube_sante/status/1276587292430393353). Pour la région de Montréal, ils seront dorénavant publiés du [lundi au vendredi](https://twitter.com/Santepub_Mtl/status/1276638808348426241).
 * **2020-06-25:** [Conformément aux directives ministérielles, les données sur la situation à Montréal seront maintenant diffusées tous les jeudis. Le prochain bilan sera émis le 2 juillet.](https://twitter.com/Santepub_Mtl/status/1276251327585226752)
 * **2020-06-24:** Aucune mise à jour des données par arrondissements et villes liées n'a été faite pour le 23 juin. *Il n'y a donc pas de fichier 2020-06-23.*
