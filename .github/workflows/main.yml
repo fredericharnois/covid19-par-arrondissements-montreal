@@ -2,7 +2,7 @@ name: py
 
 on:
   schedule:
-    - cron: 0 22 * * 1-5
+    - cron: 0 20 * * 1-5
 
 jobs:
   updateData:
