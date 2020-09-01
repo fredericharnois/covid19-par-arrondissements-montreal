@@ -33,6 +33,6 @@ for table_row in table.findAll('tr'):
     output_rows.append(output_row)
 output_rows = filter(None, output_rows)
     
-with open('data\\' + str(date) + '.csv', 'w', encoding='utf-8', newline='') as csvfile:
+with open('data/' + str(date) + '.csv', 'w', encoding='utf-8', newline='') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(output_rows)
