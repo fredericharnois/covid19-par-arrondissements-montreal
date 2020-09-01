@@ -31,6 +31,6 @@ jobs:
       run: |
         git config --global user.name 'fredericharnois'
         git config --global user.email 'fredericharnois@users.noreply.github.com'
-        git add --all
+        git add *.csv
         git commit -am "Added data for ${{ steps.ydate.outputs.ydate }}"
         git push
