@@ -25,7 +25,7 @@ jobs:
 
     - name: Get yesterday's date
       id: ydate
-      run: echo "set-output name=ydate::$(date -d "yesterday 22:0" +'%Y-%m-%d')"
+      run: echo "::set-output name=ydate::$(date -d "yesterday 22:0" +'%Y-%m-%d')"
     
     - name: Update data
       run: |
