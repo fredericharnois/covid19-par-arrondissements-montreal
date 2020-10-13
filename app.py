@@ -17,17 +17,21 @@ date = yesterday.strftime('%Y-%m-%d')
 
 output_rows = [['Arrondissements', 'Cas Confirmés']]
 for table_row in table.findAll('tr'):
-    columns = table_row.findAll('td')[0:2]
+    cities = table_row.findAll('td')[0:1]
+    cases = table_row.findAll('td')[4:5]
     output_row = []
-    for column in columns:
-        column_text = column.text
-        column_text = unicodedata.normalize('NFKD', column_text).strip()
-        column_text = column_text.replace('*', '')
-        if re.search('[a-zA-Z]', column_text) is None:
-            column_text = column_text.replace(' ', '')
-        elif column_text == 'Territoire à confirmer2':
-            column_text = column_text.replace('2', '')
-        output_row.append(column_text)
+    for i in range(len(cities)):
+        city = cities[i].text
+        city = unicodedata.normalize('NFKD', city).strip()
+        city = city.replace('*', '')
+        if re.search('[a-zA-Z]', city) is None:
+            city = city.replace(' ', '')
+        elif city == 'Territoire à confirmer3':
+            city = city.replace('3', '')
+        case_total = cases[i].text
+        case_total = case_total.replace(' ', '')
+        output_row.append(city)
+        output_row.append(case_total)
     output_rows.append(output_row)
 output_rows = filter(None, output_rows)
 
