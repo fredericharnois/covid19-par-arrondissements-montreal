@@ -6,6 +6,7 @@ Ce dépôt de données a pour but de stocker l'information que fourni Santé Mon
 
 #### Notes:
 
+* **2020-10-13:** Aucune mise à jour des données par arrondissements et villes liées n'a été faite pour le 12 octobre. *Il n'y a donc pas de fichier 2020-10-12.*
 * **2020-10-12:** Aucune mise à jour des données par arrondissements et villes liées n'a été faite pour le 11 octobre. *Il n'y a donc pas de fichier 2020-10-11.*
 * **2020-08-13:** Aucune mise à jour des données par arrondissements et villes liées n'a été faite pour le 10 août. *Il n'y a donc pas de fichier 2020-08-10.*
 * **2020-07-29:** Un problème technique empêche la mise en ligne des données. Seule l'information du nombre de cas et de décès total est mis à jour, dans l'encadré « Situation actuelle à Montréal », en haut de page. Les tableaux, ainsi que les CSV ne sont pas à jour. Aussi, veuillez noter qu'en raison de cet enjeu, la publication hebdomadaire du rapport par arrondissement, prévue le mercredi, sera décalée. Nous sommes désolés des inconvénients.
