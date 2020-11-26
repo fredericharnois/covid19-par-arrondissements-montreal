@@ -7,7 +7,7 @@ import datetime
 
 
 url = 'https://santemontreal.qc.ca/population/coronavirus-covid-19/situation-du-coronavirus-covid-19-a-montreal/'
-response = requests.get(url, timeout=10)
+response = requests.get(url, timeout=30)
 soup = BeautifulSoup(response.content, 'html.parser')
 table = soup.findAll('table', attrs={'class': 'contenttable'})[3]
 
