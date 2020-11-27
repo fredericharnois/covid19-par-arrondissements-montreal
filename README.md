@@ -6,6 +6,7 @@ Ce dépôt de données a pour but de stocker l'information que fourni Santé Mon
 
 #### Notes:
 
+* **2020-11-26:** Un problème d'extraction de données du fichier provincial Trajectoire de santé publique (TSP), à la source des données publiées, empêche la mise à jour des sections sur les nombres de cas confirmés et de décès. *Il n'y a donc pas de fichier 2020-11-25.*
 * **2020-10-13:** Aucune mise à jour des données par arrondissements et villes liées n'a été faite pour le 12 octobre. *Il n'y a donc pas de fichier 2020-10-12.*
 * **2020-10-12:** Aucune mise à jour des données par arrondissements et villes liées n'a été faite pour le 11 octobre. *Il n'y a donc pas de fichier 2020-10-11.*
 * **2020-08-13:** Aucune mise à jour des données par arrondissements et villes liées n'a été faite pour le 10 août. *Il n'y a donc pas de fichier 2020-08-10.*
