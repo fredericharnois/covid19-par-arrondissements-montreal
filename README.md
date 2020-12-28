@@ -6,6 +6,10 @@ Ce dépôt de données a pour but de stocker l'information que fourni Santé Mon
 
 #### Notes:
 
+* **2020-12-27:** Aucune mise à jour des données par arrondissements et villes liées n'a été faite pour le 26 décembre. *Il n'y a donc pas de fichier 2020-12-26.*
+* **2020-12-26:** Aucune mise à jour des données par arrondissements et villes liées n'a été faite pour le 25 décembre. *Il n'y a donc pas de fichier 2020-12-25.*
+* **2020-12-25:** Aucune mise à jour des données par arrondissements et villes liées n'a été faite pour le 24 décembre. *Il n'y a donc pas de fichier 2020-12-24.*
+* **2020-12-24:** Aucune mise à jour des données par arrondissements et villes liées n'a été faite pour le 23 décembre. *Il n'y a donc pas de fichier 2020-12-23.*
 * **2020-11-26:** Un problème d'extraction de données du fichier provincial Trajectoire de santé publique (TSP), à la source des données publiées, empêche la mise à jour des sections sur les nombres de cas confirmés et de décès. *Il n'y a donc pas de fichier 2020-11-25.*
 * **2020-10-13:** Aucune mise à jour des données par arrondissements et villes liées n'a été faite pour le 12 octobre. *Il n'y a donc pas de fichier 2020-10-12.*
 * **2020-10-12:** Aucune mise à jour des données par arrondissements et villes liées n'a été faite pour le 11 octobre. *Il n'y a donc pas de fichier 2020-10-11.*
