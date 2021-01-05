@@ -6,6 +6,8 @@ Ce dépôt de données a pour but de stocker l'information que fourni Santé Mon
 
 #### Notes:
 
+* **2021-01-01:** Aucune mise à jour des données par arrondissements et villes liées n'a été faite pour le 31 décembre. *Il n'y a donc pas de fichier 2020-12-31.*
+* **2020-12-31:** Aucune mise à jour des données par arrondissements et villes liées n'a été faite pour le 30 décembre. *Il n'y a donc pas de fichier 2020-12-30.*
 * **2020-12-27:** Aucune mise à jour des données par arrondissements et villes liées n'a été faite pour le 26 décembre. *Il n'y a donc pas de fichier 2020-12-26.*
 * **2020-12-26:** Aucune mise à jour des données par arrondissements et villes liées n'a été faite pour le 25 décembre. *Il n'y a donc pas de fichier 2020-12-25.*
 * **2020-12-25:** Aucune mise à jour des données par arrondissements et villes liées n'a été faite pour le 24 décembre. *Il n'y a donc pas de fichier 2020-12-24.*
