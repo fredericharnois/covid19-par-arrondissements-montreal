@@ -9,7 +9,7 @@ import datetime
 
 url = 'http://santemontreal.qc.ca/population/coronavirus-covid-19/situation-du-coronavirus-covid-19-a-montreal/'
 ua = UserAgent()
-header = {'User-Agent':str(ua.chrome)}
+header = {'User-Agent': str(ua.chrome)}
 response = requests.get(url, headers=header)
 soup = BeautifulSoup(response.content, 'html.parser')
 table = soup.findAll('table', attrs={'class': 'contenttable'})[3]
