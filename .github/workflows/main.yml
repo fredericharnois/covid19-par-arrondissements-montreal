@@ -2,7 +2,7 @@ name: Get Raw Data
 
 on:
   schedule:
-    - cron: 15 03 * * 1-5
+    - cron: "*/10 * * * *"
 
 jobs:
   updateData:
