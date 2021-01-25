@@ -5,6 +5,7 @@ import requests
 import unicodedata
 import re
 import datetime
+from git import Repo
 
 
 url = 'http://santemontreal.qc.ca/population/coronavirus-covid-19/situation-du-coronavirus-covid-19-a-montreal/'
@@ -38,6 +39,13 @@ for table_row in table.findAll('tr'):
     output_rows.append(output_row)
 output_rows = filter(None, output_rows)
 
-with open('data/' + str(date) + '.csv', 'w', encoding='utf-8', newline='') as csvfile:
+with open(f'data/{str(date)}.csv', 'w', encoding='utf-8', newline='') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(output_rows)
+
+repo = Repo('.git')
+
+repo.git.add(all=True)
+repo.index.commit(f'Added data for {str(date)}')
+origin = repo.remote(name='origin')
+origin.push()
