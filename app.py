@@ -39,11 +39,11 @@ for table_row in table.findAll('tr'):
     output_rows.append(output_row)
 output_rows = filter(None, output_rows)
 
-with open(f'data/{str(date)}.csv', 'w', encoding='utf-8', newline='') as csvfile:
+with open(f'covid19-par-arrondissements-montreal/data/{str(date)}.csv', 'w', encoding='utf-8', newline='') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(output_rows)
 
-repo = Repo('.git')
+repo = Repo('covid19-par-arrondissements-montreal/.git')
 
 repo.git.add(all=True)
 repo.index.commit(f'Added data for {str(date)}')
